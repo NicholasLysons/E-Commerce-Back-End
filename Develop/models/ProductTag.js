@@ -1,7 +1,4 @@
 const { Model, DataTypes } = require("sequelize");
-const {
-  product,
-} = require("../../../UofA-VIRT-FSF-PT-12-2022-U-LOLC/09-NodeJS/01-Activities/16-Stu_maths/Unsolved/maths");
 
 const sequelize = require("../config/connection");
 
