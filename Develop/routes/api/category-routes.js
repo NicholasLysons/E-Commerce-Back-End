@@ -9,12 +9,6 @@ router.get('/', async (req, res) => {
   } catch (err) {
     res.status(500).json(err);
   }
-  // be sure to include its associated Products
-});
-
-router.get('/:id', (req, res) => {
-
-  // be sure to include its associated Products
 });
 
 router.post('/', async (req, res) => {
@@ -24,10 +18,6 @@ router.post('/', async (req, res) => {
   } catch (err) {
     res.status(400).json(err);
   }
-});
-
-router.put('/:id', (req, res) => {
-  // update a category by its `id` value
 });
 
 router.delete('/:id', async (req, res) => {
