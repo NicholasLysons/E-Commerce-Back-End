@@ -6,6 +6,8 @@ Here is how the application:
 
 ## video
 
+![video]()
+
 ## Author
 
 https://github.com/NicholasLysons/E-Commerce-Tech
